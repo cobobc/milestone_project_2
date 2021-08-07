@@ -1,17 +1,14 @@
-# Milestone Project 1
+# Milestone Project 2
 
 ## Purpose 
 
-The purpose of this site is to complete the first Milestone Project for the Code Institute's Full Stack Developer course and can can be found [here](https://cobobc.github.io/milestone_project_fob/index.html).
+The purpose of this site is to complete the second Milestone Project for the Code Institute's Full Stack Developer course and can can be found [here]().
 
-## FOB Beats Responsive Website
+## Tee-time Trivia Website
 
-![FOB site overview](assets/images/read_me/read_me_img.png)
+![FOB site overview](assets/images/read_me/)
 
-Fionn O'Brien (FOB) requested a website to showcase his music production business. FOB requires a responsive website to provide 
-users with information about his music production, mastering, beat making,
-and songwriting services. Coupled with a portal so potential customer can be directed to buy his beats. This store portal is very important as FOB looks to increase his sales.
-
+Ciaran O'Brien has been requested to create a interactive golf quiz website. The website will challenge users on there general golfing knowledge and also - because it's a Ryder Cup year - test the users Ryder Cup knowledge.
 
 ## User Experience (UX)
 
