@@ -2,7 +2,49 @@ body {
     font-family: Open Sans;
 }
 ​
-h1 {
+/*--------------------------------------------------------------------------------------------------------------------Navbar--*/
+
+.navbar {
+    z-index: 1;
+    background-color: #343254;
+}
+
+.nav-heading a {
+    color: #343254;
+    font-weight: 400;
+}
+
+.nav-item a {
+    color: #343254;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------Footer--*/
+
+.container-wrapper-footer {
+    background-color: #343254;
+    text-align: center;
+    padding-top: 1.25rem;
+    padding-bottom: .625rem;
+}    
+
+.social-footer a {
+    font-size: 3rem;
+    color: floralwhite;
+    padding-left: .625rem;
+    padding-right: .625rem;
+}
+
+.footer-container h6 {
+    color: floralwhite;
+}
+
+.footer-container p {
+    color: floralwhite;
+    font-size: .55rem;
+    margin-bottom: 0;
+}
+
+/*-- h1 {
     text-align: center;
 }
 ​
@@ -68,4 +110,5 @@ ul {
 #start {
     display:none;
     width: 90px;
-}
+}--*/
+
