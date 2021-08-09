@@ -10,6 +10,16 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("user_qBlVxeumPRH3HAgMGOBfj");
+            emailjs.send("service_adi67g3","template_98m6gvh",{name: "Aaron", notes: "The project that I want is..."});
+        })();
+</script>
 </head>
 <body>
 <!------------------------------------------------------------------------------------------------------------------------------Header/Navigation-->
