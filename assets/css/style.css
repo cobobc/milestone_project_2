@@ -44,6 +44,82 @@ body {
     margin-bottom: 0;
 }
 
+/*--------------------------------------------------------------------------------------------------------------------CONTACT - Main Header--*/
+
+.bk-contact-container {
+    height: 110vh;
+    background-color: floralwhite;
+}
+
+.contact-text {
+    padding-top: 3.125rem;
+    margin-bottom: 0;
+    font-weight: 500;
+    color: #343254;
+}
+
+.contact-paragraph {
+    color: #343254;
+    margin-bottom: 0;
+    padding-top: 1.25rem;
+    padding-right: .625rem;
+    padding-left: .625rem;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------Contact Form--*/
+
+form { 
+    max-width: 26.25rem;
+    margin: auto;
+    padding-top: 3.125rem;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.feedback-input {
+  color: #343254;
+  font-weight: 500;
+  font-size: 1.125rem;
+  border-radius: .313rem;
+  line-height: 2.3rem;
+  background-color: transparent;
+  border: 2px solid #343254;
+  padding: 0;
+  margin-bottom: .938rem;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.feedback-input:focus { 
+    border: 2px solid #343254;
+ }
+
+textarea {
+  height: 9.375rem;
+  line-height: 150%;
+  resize: vertical;
+}
+
+[type="submit"] {
+  width: 100%;
+  background:#343254;
+  border-radius: .313rem;
+  border: 0;
+  cursor: pointer;
+  color:floralwhite;
+  font-size: 1.5rem;
+  padding-top: .625rem;
+  padding-bottom: .625rem;
+  transition: all 0.3s;
+  margin-top: -0.25rem;
+  font-weight: 700;
+}
+[type="submit"]:hover {
+    background:#45436d;
+}
+
+
 /*-- h1 {
     text-align: center;
 }
