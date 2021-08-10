@@ -1,23 +1,83 @@
 (function() {
     const questions = [{
-        question: "What year was Pink Floyd created?",
-        choices: [2012, 1956, 1962, 1998, 1999],
+        question: "If you make five strokes on a Par 4, what is the result?",
+        choices: ["Birdie", "Par", "Bogey", "Eagle", "Double-bogey"],
         correctAnswer: 2
     }, {
-        question: "What's the name of the planet closest to the sun",
-        choices: ["The Earth", "Pluto", "Mercury", "Venus", "Mars"],
-        correctAnswer: 2
-    }, {
-        question: "What is 8*9?",
-        choices: [72, 99, 108, 134, 156],
-        correctAnswer: 0
-    }, {
-        question: "What is 1*7?",
-        choices: [4, 5, 6, 7, 8],
+        question: "Who won the 2019 British Open in Portrush, Northern Ireland?",
+        choices: ["Tiger Woods", "Ernie Els", "Vijay Singh", "Shane Lowry", "Gary Player"],
         correctAnswer: 3
     }, {
-        question: "What is 8*8?",
-        choices: [20, 30, 40, 50, 64],
+        question: "How many times has Tiger Woods won The Masters?",
+        choices: [5, 0, 15, 29, 1],
+        correctAnswer: 0
+    }, {
+        question: "Which year did Brooks Koepka win his first major?",
+        choices: [2020, 2021, 2010, 2019, 2017],
+        correctAnswer: 4
+    }, {
+        question: "Which major has Rory McIlroy not won?",
+        choices: ["US Open", "British Open", "USPGA Championship", "The Players", "The Masters"],
+        correctAnswer: 4
+    }, {
+        question: "Which year was golf’s last appearance at the Olympic Games before returning to the line-up of sports in 2016?",
+        choices: [1978, 1904, 2012, 2000, 1986],
+        correctAnswer: 1
+    }, {
+        question: "Who was top of the golf world rankings prior to lockdown?",
+        choices: ["Tiger Woods", "Shane Lowry", "Rory McIlroy", "Justin Thomas", "Dustin Jonhson"],
+        correctAnswer: 4
+    }, {
+        question: "In dollars, what is the total prize money purse available in The Players Championship – the most lucrative event on the tour?",
+        choices: ["$12,500,000", "$2,500,000", "$50,000,000", "$28,000,000", "$7,500,000"],
+        correctAnswer: 0
+    }, {
+        question: "Who stunned the golf world by winning the 2003 PGA Championship despite being ranked No. 169th in the world at the time?",
+        choices: ["Rich Beem", "Ben Curtis", "Shaun Micheel", "Stewart Cink", "Ben Watson"],
+        correctAnswer: 2
+    }, {
+        question: "Tiger Woods was ranked No. __ in the world when he won The Masters in 2019…",
+        choices: [12, 7, 16, 25, 42],
+        correctAnswer: 0
+    }, {
+        question: "Which course has been used more often than any other for The Open Championship? (29 times)",
+        choices: ["Portrush", "St Andrews", "Royal Birkdale", "Royal St. George's", "Carnoustie"],
+        correctAnswer: 1
+    }, {
+        question: "Which player has won the most major championships in his career? (18)",
+        choices: ["Tiger Woods", "Ben Hogan", "Arnold Palmer", "Gary Player", "Jack Nicklaus"],
+        correctAnswer: 4
+    }, {
+        question: "The 11th, 12th and 13th holes at Augusta National are collectively known by what nickname?",
+        choices: ["The Turn Back Turn", "Feck This", "Players Nightmare", "Bottlers Bend", "Amen Corner"],
+        correctAnswer: 4
+    }, {
+        question: "What was the last PGA Tour event to be played in full before the coronavirus lockdown?",
+        choices: ["WGC Invitational", "The Tour Championship", "The Players", "Arnold Palmer Invitational", "Bay Hill Invitational"],
+        correctAnswer: 3
+    }, {
+        question: "Royal St George’s Golf Club is based in which English town that shares its name with a popular lunchtime food?",
+        choices: ["Sandwich", "Crumpets", "Salad", "Soup", "Bread"],
+        correctAnswer: 0
+    }, {
+        question: "Tiger Woods was born in which US state?",
+        choices: ["New Mexico", "Virginia", "California", "Florida", "Texas"],
+        correctAnswer: 2
+    }, {
+        question: "Who racked up a stunning 18 wins on Tour in 1945?",
+        choices: ["Byron Nelson", "Ben Hogan", "Arnold Palmer", "Gary Player", "Jack Nicklaus"],
+        correctAnswer: 0
+    }, {
+        question: "Who won the Masters in 2021?",
+        choices: ["Dustin Jonhson", "Brook Keopka", "Bryson DeChambeau", "Hideki Matsuyama", "Colin Morikawa"],
+        correctAnswer: 3
+    }, {
+        question: "In the 2008 US Open playoff, who did Tiger Woods beat?",
+        choices: ["Chris DiMarco", "Rocco Mediate", "Phil Mickelson", "Adam Scott", "Ernie Else"],
+        correctAnswer: 1
+    }, {
+        question: "Rory McIlroy imploded on Sunday after holding a four-stoke lead overnight in 2011. Who ended up winning?",
+        choices: ["Adam Scott", "Charl Schwartzel", "Bubba Watson", "Angel Cabrera", "Danny Willett"],
         correctAnswer: 4
     }];
 ​
