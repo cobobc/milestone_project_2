@@ -1,27 +1,30 @@
 body {
-    font-family: Open Sans;
+    font-family: 'Enriqueta', sans-serif;
 }
 ​
 /*--------------------------------------------------------------------------------------------------------------------Navbar--*/
 
 .navbar {
     z-index: 1;
-    background-color: #343254;
 }
 
 .nav-heading a {
-    color: #343254;
+    color: white;
     font-weight: 400;
 }
 
 .nav-item a {
-    color: #343254;
+    color: white;
+}
+
+.dropdown-menu a {
+    color: #009170;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------Footer--*/
 
 .container-wrapper-footer {
-    background-color: #343254;
+    background-color: #009170;
     text-align: center;
     padding-top: 1.25rem;
     padding-bottom: .625rem;
@@ -29,20 +32,28 @@ body {
 
 .social-footer a {
     font-size: 3rem;
-    color: floralwhite;
+    color: white;
     padding-left: .625rem;
     padding-right: .625rem;
 }
 
 .footer-container h6 {
-    color: floralwhite;
+    color: white;
 }
 
 .footer-container p {
-    color: floralwhite;
+    color: white;
     font-size: .55rem;
     margin-bottom: 0;
 }
+
+/*--------------------------------------------------------------------------------------------------------------------Home - Features--*/
+
+.container-wrapper-quizzes {
+    background-color: #f8dcac;
+    padding: .625rem 1.25rem;
+}
+
 
 /*--------------------------------------------------------------------------------------------------------------------CONTACT - Main Header--*/
 
