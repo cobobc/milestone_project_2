@@ -45,6 +45,21 @@ body {
     padding-bottom: .625rem;
 }    
 
+.footer-header {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.info-footer {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
 .info-footer a {
     color: white;
 }
@@ -62,12 +77,17 @@ body {
 
 .footer-container hr {
     background-color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: auto;
+    max-width: 60%;
+    height: auto;
 }
 
 .footer-container p {
     color: white;
     font-size: .55rem;
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------Navbar/Quiz Special--*/
@@ -78,6 +98,11 @@ body {
     padding-top: 1.25rem;
     padding-bottom: .625rem;
 }   
+
+.info-footer-special {
+    margin-left: 80px;
+    margin-right: 80px;
+}
 
 .info-footer-special a {
     color: #FFCC00;
@@ -96,12 +121,17 @@ body {
 
 .footer-special hr {
     background-color: #FFCC00;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: auto;
+    max-width: 60%;
+    height: auto;
 }
 
 .footer-special p {
     color: #FFCC00;
     font-size: .55rem;
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 
 
@@ -112,7 +142,7 @@ body {
     padding: .625rem 1.25rem;
 }
 
-/*--------------------------------------------------------------------------------------------------------------------Quizzes - Logo/Background--*/
+/*--------------------------------------------------------------------------------------------------------------------Quiz Special Page--*/
 
 .bk-container {
     height: 100vh;
@@ -127,6 +157,8 @@ body {
     position: relative;
     margin-top: -0.313rem;
 }
+
+
 
 
 /*--------------------------------------------------------------------------------------------------------------------CONTACT - Main Header--*/
@@ -204,10 +236,12 @@ textarea {
     background:#45436d;
 }
 
+/*--------------------------------------------------------------------------------------------------------------------Quiz 2--*/
 
-/*-- h1 {
+.quiz-heading-2 {
     text-align: center;
 }
+​
 ​
 #title {
     text-decoration: underline;
@@ -271,5 +305,4 @@ ul {
 #start {
     display:none;
     width: 90px;
-}--*/
-
+}

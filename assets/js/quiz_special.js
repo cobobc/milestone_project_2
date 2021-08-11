@@ -81,6 +81,7 @@
         correctAnswer: 4
     }];
 ​
+
     let questionCounter = 0; //Tracks question number
     let selections = []; //Array containing user choices
     const quiz = $('#quiz'); //Quiz div object
