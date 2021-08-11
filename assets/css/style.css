@@ -90,7 +90,7 @@ body {
     padding-right: .625rem;
 }
 
-.footer-container h2 {
+.footer-special h2 {
     color: #FFCC00;
 }
 
@@ -110,6 +110,22 @@ body {
 .container-wrapper-quizzes {
     background-color: #f8dcac;
     padding: .625rem 1.25rem;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------Quizzes - Logo/Background--*/
+
+.bk-container {
+    height: 100vh;
+    background: url(../images/mcd2.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display:flex;    
+    align-items:flex-end;
+    justify-content: center;
+    position: relative;
+    margin-top: -0.313rem;
 }
 
 
