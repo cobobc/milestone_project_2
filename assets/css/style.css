@@ -72,6 +72,37 @@ body {
 
 /*--------------------------------------------------------------------------------------------------------------------Navbar/Quiz Special--*/
 
+.footer-special {
+    background-color: #003399;
+    text-align: center;
+    padding-top: 1.25rem;
+    padding-bottom: .625rem;
+}   
+
+.info-footer-special a {
+    color: #FFCC00;
+}
+
+.social-footer-special a {
+    font-size: 1.8rem;
+    color: #FFCC00;
+    padding-left: .625rem;
+    padding-right: .625rem;
+}
+
+.footer-container h2 {
+    color: #FFCC00;
+}
+
+.footer-special hr {
+    background-color: #FFCC00;
+}
+
+.footer-special p {
+    color: #FFCC00;
+    font-size: .55rem;
+    margin-bottom: 0;
+}
 
 
 /*--------------------------------------------------------------------------------------------------------------------Home - Features--*/
