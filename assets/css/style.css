@@ -30,6 +30,10 @@ body {
     padding-bottom: .625rem;
 }    
 
+.info-footer a {
+    color: white;
+}
+
 .social-footer a {
     font-size: 3rem;
     color: white;
