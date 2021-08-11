@@ -21,6 +21,21 @@ body {
     color: #009170;
 }
 
+/*--------------------------------------------------------------------------------------------------------------------Navbar/Quiz Special--*/
+
+.nav-heading-special a {
+    color: #FFCC00;
+    font-weight: 400;
+}
+
+.nav-special a {
+    color: #FFCC00;
+}
+
+.dropdown-special a {
+    color: #003399;
+}
+
 /*--------------------------------------------------------------------------------------------------------------------Footer--*/
 
 .container-wrapper-footer {
@@ -41,8 +56,12 @@ body {
     padding-right: .625rem;
 }
 
-.footer-container h6 {
+.footer-container h2 {
     color: white;
+}
+
+.footer-container hr {
+    background-color: white;
 }
 
 .footer-container p {
@@ -50,6 +69,10 @@ body {
     font-size: .55rem;
     margin-bottom: 0;
 }
+
+/*--------------------------------------------------------------------------------------------------------------------Navbar/Quiz Special--*/
+
+
 
 /*--------------------------------------------------------------------------------------------------------------------Home - Features--*/
 
