@@ -34,7 +34,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="index.html">Home </a>
         </li>
         <li class="nav-item dropdown">
@@ -46,7 +46,7 @@
               <a class="dropdown-item" href="quiz_special.html">Ryder Cup Quiz (NEW)</a>
             </div>
           </li>
-        <li class="nav-item">
+        <li class="nav-item active">
             <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
         </li>
       </ul>
@@ -64,7 +64,7 @@
             <form onsubmit="return sendMail(this);">      
                 <input name="name" type="text" class="feedback-input" placeholder="Name" required/>   
                 <input name="email" type="text" class="feedback-input" placeholder="Email" required/>
-                <textarea name="text" class="feedback-input" placeholder="Your Tee Time Trivia Score" required></textarea>
+                <textarea name="text" class="feedback-input" placeholder="Hey Tiger, please enter your score here" required></textarea>
                 <input type="submit" value="SUBMIT YOUR SCORE"/>
             </form>
         </div>
@@ -74,12 +74,30 @@
 <footer>
     <div class="container-wrapper-footer">
         <div class="container-fluid footer-container"> 
-            <h6>Social Platforms</h6>
+            <h2 class="footer-header">Tee Time Trivia</h2>
+                <hr>
+                <section class="info-footer">
+                    <div class="row">
+                        <div class="col-sm">
+                            <h5><a href="index.html">Home</a></h5>
+                        </div>
+                        <div class="col-sm">
+                            <h5><a href="index.html">Quiz</a></h5>
+                        </div>
+                        <div class="col-sm">
+                            <h5><a href="index.html">Quiz Special</a></h5>
+                        </div>
+                        <div class="col-sm">
+                            <h5><a href="index.html">Contact</a></h5>
+                        </div>
+                    </div>
+                </section>
+                <hr>
             <div class="footer social-footer">
-                <a href="https://open.spotify.com/artist/1aSoKr9KjzfwyjIxHYYTIT" target="_blank"><i class="fab fa-spotify"></i></a>
-                <a href="https://soundcloud.com/prodbyfob" target="_blank"><i class="fab fa-soundcloud"></i></a>
-                <a href="https://www.instagram.com/fob_beats/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.facebook.com/fobmusik/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.pinterest.com/" target="_blank"><i class="fab fa-pinterest"></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
             </div>
             <p>© Tee Time Trivia 2021</p>
         </div>
