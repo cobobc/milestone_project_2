@@ -100,7 +100,7 @@
 ​
         // If no user selection, progress is stopped
         if (isNaN(selections[questionCounter])) {
-            alert('Please make a selection!');
+            alert('Please select an answer!');
         } else {
             questionCounter++;
             displayNext();

@@ -55,23 +55,21 @@
 
 <!--------------------------------------------------------------------------------------------------------------------Contact-->
 <div class="container-fluid bk-contact-container">
-    <section class="contact">
-        <div class="contact-heading">
-            <h2 class="text-center contact-text">Contact</h2>
-                <section class="callout jumbotron jumbotron-special text-center">
-                    <h2 class="main-header text-uppercase">how about a personal message from bryson de chambeau?</h2><br><br>
-                </section>
-            <p class="text-center contact-paragraph">Keep track of your scores everytime you play! Simply, enter your name, email address, your score and click 'Submit my score'. You will receive an email with your score and a personal message from Bryson De Chambeau.</p>
-        </div>
-        <div class="col-sm">
-            <form onsubmit="return sendMail(this);">      
-                <input name="name" type="text" class="feedback-input" placeholder="Name" required/>   
-                <input name="email" type="text" class="feedback-input" placeholder="Email" required/>
-                <textarea name="text" class="feedback-input" placeholder="Hey Tiger, please enter your score here" required></textarea>
-                <input type="submit" value="SUBMIT YOUR SCORE"/>
-            </form>
-        </div>
-    </section>
+    <div class="contact-heading">
+        <h2 class="text-center contact-text">Contact</h2>
+            <section class="callout jumbotron jumbotron-special text-center">
+                <h2 class="main-header text-uppercase">how about a personal message from bryson de chambeau?</h2><br><br>
+            </section>
+        <p class="text-center contact-paragraph">Keep track of your scores everytime you play! Simply, enter your name, email address, your score and click 'Submit my score'. You will receive an email with your score and a personal message from Bryson De Chambeau.</p>
+    </div>
+    <div class="col-sm">
+        <form onsubmit="return sendMail(this);">      
+            <input name="name" type="text" class="feedback-input" placeholder="Name" required/>   
+            <input name="email" type="text" class="feedback-input" placeholder="Email" required/>
+            <textarea name="text" class="feedback-input" placeholder="Hey Tiger, please enter your score here" required></textarea>
+            <input type="submit" value="SUBMIT YOUR SCORE"/>
+        </form>
+    </div>
 </div>
 <!--------------------------------------------------------------------------------------------------------------------------Footer-->
 <footer>
