@@ -181,18 +181,18 @@ body {
 
 .bk-contact-container {
     height: 110vh;
-    background-color: floralwhite;
+    background-color: white;
 }
 
 .contact-text {
     padding-top: 3.125rem;
     margin-bottom: 0;
     font-weight: 500;
-    color: #343254;
+    color: #009170;
 }
 
 .contact-paragraph {
-    color: #343254;
+    color: #009170;
     margin-bottom: 0;
     padding-top: 1.25rem;
     padding-right: .625rem;
@@ -210,13 +210,13 @@ form {
 }
 
 .feedback-input {
-  color: #343254;
+  color: #009170;
   font-weight: 500;
   font-size: 1.125rem;
   border-radius: .313rem;
   line-height: 2.3rem;
   background-color: transparent;
-  border: 2px solid #343254;
+  border: 2px solid #009170;
   padding: 0;
   margin-bottom: .938rem;
   width: 100%;
@@ -225,7 +225,7 @@ form {
 }
 
 .feedback-input:focus { 
-    border: 2px solid #343254;
+    border: 2px solid #009170;
  }
 
 textarea {
@@ -236,11 +236,11 @@ textarea {
 
 [type="submit"] {
   width: 100%;
-  background:#343254;
+  background:#009170;
   border-radius: .313rem;
   border: 0;
   cursor: pointer;
-  color:floralwhite;
+  color:white;
   font-size: 1.5rem;
   padding-top: .625rem;
   padding-bottom: .625rem;
@@ -249,7 +249,7 @@ textarea {
   font-weight: 700;
 }
 [type="submit"]:hover {
-    background:#45436d;
+    background:#015844;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------Quiz 2--*/
