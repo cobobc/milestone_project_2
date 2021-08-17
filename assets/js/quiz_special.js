@@ -81,7 +81,7 @@
 ​
         // If no user selection, progress is stopped
         if (isNaN(selections[questionCounter])) {
-            alert('Please make a selection!');
+            alert('In golf you need to put the ball in the hole to progress. Please select an answer to proceed!');
         } else {
             questionCounter++;
             displayNext();
