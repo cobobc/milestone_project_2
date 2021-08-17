@@ -4,9 +4,9 @@
 
 The purpose of this site is to complete the second Milestone Project for the Code Institute's Full Stack Developer course and can can be found [here]().
 
-## Tee-time Trivia Website
+## Tee Time Trivia Website
 
-![FOB site overview](assets/images/read_me/)
+![TTT site overview](assets/images/read_me/)
 
 Ciaran O'Brien has been requested to create a interactive golf quiz website. The website will challenge users on there general golfing knowledge and also - because it's a Ryder Cup year - test the users Ryder Cup knowledge.
 
@@ -52,7 +52,7 @@ FOB Beats has his own logo and a great collection of photograpy which FOB has gr
 
 #### Wireframes
 
-For complete wireframes see this [PDF](assets/images/read_me/Wireframes.pdf).
+For complete wireframes see this [PDF](assets/images/read_me/Wireframes_m2.pdf).
 
 
 ### Limitations
