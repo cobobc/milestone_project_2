@@ -17,38 +17,40 @@ Ciaran O'Brien has been requested to create a interactive golf quiz website. The
 #### First Time User Goals
 
 *   As a First Time user, I want to view clear and concise content on mobile and tablet.
-*   As a First Time user, I want to learn and understand what FOB Beats is about.
-*   As a First Time user, I want to understand the services offered.
-*   As a First Time user, I want to seemlessly navigate through the 5 pages of the site.
-*   As a First Time user, I want to easily connect with FOBs social platforms.
+*   As a First Time user, I want to learn and understand what the site offers.
+*   As a First Time user, I want to understand the difference between the two quizzes.
+*   As a First Time user, I want to seemlessly navigate through the 6 pages of the site.
+*   As a First Time user, I want to easily connect with Tee Time Trivia's social platforms.
+*   As a First Time user, I want to challeng my golfing knowledge.
 
 #### Returning User Goals
 
-*   As a Returning user, I want to purchase FOBs beats through the external link portal on the site.
-*   As a Returning user, I want to watch and take notes on FOBs step by step beat making tutorial.
+*   As a Returning user, I want to continue to challenge my golfing knowledge.
+*   As a Returning user, I want to be challanged with new quiz questions.
+*   As a Returning user, I want to submit my score so I recieve a personal email with my score.
 *   As a Returning user, I want to book a recording session via the contact form.
 
 #### Frequent User Goals
 
 The frequent user wants the following:
 
-*   As a Frequent user, I want to use FOBs credit list as a continuous muscial source.
-*   As a Frequent user, I want to check when new beats arrive on the site.
+*   As a Frequent user, I want to use the email service to record all my results over a period of time.
+*   As a Frequent user, I want to check for new quiz questions.
 
 ### Design
 
 #### Colour Scheme
 
-The main colours used are #343254 (purple), #f0b2d6 (pink), and floralwhite. These colours go well
-with the FOB Beat logo and the collection of images seen in the gallery page and the main image on the home page.
+The main colours used are #009170 (green), #000 (white), and #f8dcac (sand). The green and sand are common colours associated with golf.
+For the special quiz pages a #003399 (blue) and a #FFCC00 (yellow) are used. These colours are that of the EU flag and the European Ryder Cup team.
 
 #### Font
 
-The **Quicksand** font is used through the whole site.
+The **Enriqueta** font is used through the whole site.
 
 #### Imagery
 
-FOB Beats has his own logo and a great collection of photograpy which FOB has granted permission to use for this project.
+The large background images used are sources from www.theindependent.ie and was granted permission to use for this project.
 
 #### Wireframes
 
