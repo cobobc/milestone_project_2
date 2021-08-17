@@ -59,22 +59,19 @@ For complete wireframes see this [PDF](assets/images/read_me/Wireframes_m2.pdf).
 
 ### Limitations
 
-There were two limitations faced with no JavaScript funtionality, and they are:
-
-*   The audio control used on the Music page could not be styled resulting in the basic design seen on that page.
-*   The contact form does not send email requests or store data.
-
+There were no limitations because JavaScript was used.
 
 ## Features 
 
-The features throughout the site are to have a minimalist approach - less is more.
+The features throughout the site are used mininal text and larger text for clear navigation from quiz to quiz.
 
 ### Existing Features
 
 *   Navigation bar
 
-    *   Featured identically on every page that contains links to the Home, Music, Credits, Gallery, and Contact pages. The title in the nav bar provides the user with a link
+    *   Featured identically on every page that contains links to the Home page, the 2 quizzes, and the Contact pages. The title in the nav bar provides the user with a link
         back to the home page. 
+    *   
     *   The navigation options becomes contained in a responsive Bootstrap burger icon for tablet and mobile devices that provides the page option in a dropdown form. 
 
 *   Footer
@@ -200,32 +197,53 @@ The second HTML and CSS validations produced 0 errors.
 
 #### User Goal Results
 
+*   As a First Time user, I want to view clear and concise content on mobile and tablet.
+*   As a First Time user, I want to learn and understand what the site offers.
+*   As a First Time user, I want to understand the difference between the two quizzes.
+*   As a First Time user, I want to seemlessly navigate through the 6 pages of the site.
+*   As a First Time user, I want to easily connect with Tee Time Trivia's social platforms.
+*   As a First Time user, I want to challeng my golfing knowledge.
+
+#### Returning User Goals
+
+*   As a Returning user, I want to continue to challenge my golfing knowledge.
+*   As a Returning user, I want to be challanged with new quiz questions.
+*   As a Returning user, I want to submit my score so I recieve a personal email with my score.
+
+#### Frequent User Goals
+
+The frequent user wants the following:
+
+*   As a Frequent user, I want to use the email service to record all my results over a period of time.
+*   As a Frequent user, I want to try out the seasonal quiz specials.
+
 ##### First Time users
 
 *   As a First Time user, I want to view clear and concise content on mobile - Testing was performed to ensure there was not clusters of over information, well spaced and aesthically pleasing on tablet and mobile.
 
-*   As a First Time user, I want to learn and understand what FOB Beats is about - Testing was performed to verify enough information is uploaded to tell the user about fob.
+*   As a First Time user, I want to learn and understand what the site offers - Testing was performed to verify enough information is uploaded to tell the user about what the site offers.
 
-*   As a First Time user, I want to understand the services offered - Testing was performed to verify enough information is uploaded to tell the user of the services FOB offers.
+*   As a First Time user, I want to understand the difference between the two quizzes - Testing was performed to verify enough information is uploaded to tell the user of the differences between the golf general knowledge quiz and the golf special quiz.
 
-*   As a First Time user, I want to seemlessly navigated through the 5 pages of the site - Testing was performed on all navigation links to ensure the user can seemlessly navigate throughout the site.
+*   As a First Time user, I want to seemlessly navigate through the 6 pages of the site - Testing was performed on all navigation links to ensure the user can seemlessly navigate throughout the site.
 
-*   As a First Time user, I want to easily connect with FOBs social platforms - Testing was performed on all social media links to ensure they all opened in a new tab so the user doesn't have to leave the site.
+*   As a First Time user, I want to easily connect with Tee Time Trivia's social platforms - Testing was performed on all social media links to ensure they all opened in a new tab so the user doesn't have to leave the site.
+
+*   As a First Time user, I want to challenge my golfing knowledge - Testing was performed on both quizes to ensure a seemless and challenging experience for users.
 
 #### Returning Users
 
-*   As a Returning user, I want to purchase FOBs beats through the external link portal on the site - Testing was performed on both shop now links/buttons to snsure the user is taken to the external store in a new tab.
+*   As a Returning user, I want to continue to challenge my golfing knowledge - Testing was performed on both quizes to ensure a continuously seemless and challenging experience for users.
 
-*   As a Returning user, I want to watch and take notes on FOBs step by step beat making tutorial - Testing was performed on the embeded video to ensure that it starts on the right time and the controls are easy to use.
+*   As a Returning user, I want to be challanged with new quiz questions - Testing cannot be performed on this parameter as the site will updated weekly with new questions by employees of Tee Time Trivia.
 
-*   As a Returning user, I want to book a recording session via the contact form - Testing was performed to enusure that the contact form was responsive and the user can easily type and edit there details and/or queries. 
-
+*   As a Returning user, I want to submit my score so I recieve a personal email with my score - Testing was performed on the Email JS function to ensure the user receives a response email with their score after they have submitted their score via the website.
 
 #### Frequent Users
 
-*   As a Frequent user, I want to use FOBs credit list as a continuous muscial source - Testing was performed to ensure the full credits list collapse feaure functions correctly and that all links to  the artists opened in a new tab.
+*   As a Frequent user, I want to use the email service to record all my results over a period of time - Testing was performed on the Email JS function to ensure the user receives a response email with their score after they have submitted their score via the website and that the email saves in the users inbox.
 
-*   As a Frequent user, I want to check when new beats arrive on the site - Testing was performed to validate the audio controls functionality and that the link to FOB soundcloud opened in a new tab.
+*   As a Frequent user, I want to try out the seasonal quiz specials - Testing cannot be performed on this parameter as the quiz special will be updated whenever major golfing events are approaching by employees of Tee Time Trivia.
 
 
 ### Lighthouse Test Results
@@ -264,7 +282,7 @@ The following commands were used throughout the project:
 1.  Navigate to the GitHub [Repository](https://github.com/cobobc/milestone_project_fob).
 1.  Select the **Settings** Tab.
 1.  Scroll Down to the Git Hub Pages Heading.
-1.  Select **Master Branch** as the source.
+1.  Select **Main Branch** as the source.
 1.  Select the **Save button**.
 1.  Select on the link to go to the live deployed page.
 
@@ -283,131 +301,18 @@ The following commands were used throughout the project:
 
 ### Code
 
-[W3Schools](https://www.w3schools.com/) helped throughout the project with general element and attribute uncertainties. And was
-is where the I found the linear-gradient styling attribute which was used for the background of both the music and credits pages.
+[W3Schools](https://www.w3schools.com/) helped throughout the project with general element and attribute uncertainties.
 
 ### Content 
 
-The contents of the paragraphs was provided by FOB. Headings were mutially decided between FOB and I.
+The contents of the quiz questions came from various sources - BBC Sport, Sky Sports Golf, the R&A and Joe.ie. Headings, titles and paragraphs were all wrote by Ciaran O'Brien.
 
 ### Media 
 
-The media (images and audios) are owned by FOB and permission was granted to use his media. 
-The YouTube video is owned by Xtract and permission was obtained to use this video.
+The large background images used are sourced from www.theindependent.ie and permission was granted to use for this project.
 
 ### Acknowledgements
 
 I'd like to thank my mentor Spencer Baribell for his guidance, efficiency and positivity throughout my project.
-Thanks to fellow students @Kay Ellis and @Kevin O'Carroll for helping me through positional issues with the FOB logo on the homepage on Slack.
-Thanks to my brother, Mr. FOB (Fionn O'Brien), for providing content, setting out the goal of the website, and discussing the design of the site.
+Thanks to my fellow students on Slack for helping my link the js quiz code to the html and css code so that my quiz question could appear.
 
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome cobobc,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
