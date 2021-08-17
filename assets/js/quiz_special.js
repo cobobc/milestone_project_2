@@ -1,84 +1,64 @@
 (function() {
     const questions = [{
-        question: "If you make five strokes on a Par 4, what is the result?",
-        choices: ["Birdie", "Par", "Bogey", "Eagle", "Double-bogey"],
-        correctAnswer: 2
-    }, {
-        question: "Who won the 2019 British Open in Portrush, Northern Ireland?",
-        choices: ["Tiger Woods", "Ernie Els", "Vijay Singh", "Shane Lowry", "Gary Player"],
+        question: "It’s 25 years since Team USA last won on European soil. Who captained the Americans to victory?",
+        choices: ["Jack Nicklaus", "Lee Trevino", "Raymond Floyd", "Tom Watson"],
         correctAnswer: 3
     }, {
-        question: "How many times has Tiger Woods won The Masters?",
-        choices: [5, 0, 15, 29, 1],
-        correctAnswer: 0
-    }, {
-        question: "Which year did Brooks Koepka win his first major?",
-        choices: [2020, 2021, 2010, 2019, 2017],
-        correctAnswer: 4
-    }, {
-        question: "Which major has Rory McIlroy not won?",
-        choices: ["US Open", "British Open", "USPGA Championship", "The Players", "The Masters"],
-        correctAnswer: 4
-    }, {
-        question: "Which year was golf’s last appearance at the Olympic Games before returning to the line-up of sports in 2016?",
-        choices: [1978, 1904, 2012, 2000, 1986],
+        question: "Thomas Bjorn captained Europe in 2018, but how many times did he represent Europe as a player?",
+        choices: [2, 3, 4, 5],
         correctAnswer: 1
     }, {
-        question: "Who was top of the golf world rankings prior to lockdown?",
-        choices: ["Tiger Woods", "Shane Lowry", "Rory McIlroy", "Justin Thomas", "Dustin Jonhson"],
-        correctAnswer: 4
+        question: "Before Davis Love III guided USA to victory in 2016, who was the only winning American captain this century?",
+        choices: ["Hal Sutton", "Paul Azinger", "Corey Pavin", "Curtis Strange"],
+        correctAnswer: 1
     }, {
-        question: "In dollars, what is the total prize money purse available in The Players Championship – the most lucrative event on the tour?",
-        choices: ["$12,500,000", "$2,500,000", "$50,000,000", "$28,000,000", "$7,500,000"],
-        correctAnswer: 0
-    }, {
-        question: "Who stunned the golf world by winning the 2003 PGA Championship despite being ranked No. 169th in the world at the time?",
-        choices: ["Rich Beem", "Ben Curtis", "Shaun Micheel", "Stewart Cink", "Ben Watson"],
+        question: "Who secured the winning point for Team USA in their 17-11 victory at Hazeltine 2016?",
+        choices: ["J.B Holmes", "Jordan Speith", "Ryan Moore", "Zach Johnson"],
         correctAnswer: 2
     }, {
-        question: "Tiger Woods was ranked No. __ in the world when he won The Masters in 2019…",
-        choices: [12, 7, 16, 25, 42],
-        correctAnswer: 0
-    }, {
-        question: "Which course has been used more often than any other for The Open Championship? (29 times)",
-        choices: ["Portrush", "St Andrews", "Royal Birkdale", "Royal St. George's", "Carnoustie"],
-        correctAnswer: 1
-    }, {
-        question: "Which player has won the most major championships in his career? (18)",
-        choices: ["Tiger Woods", "Ben Hogan", "Arnold Palmer", "Gary Player", "Jack Nicklaus"],
-        correctAnswer: 4
-    }, {
-        question: "The 11th, 12th and 13th holes at Augusta National are collectively known by what nickname?",
-        choices: ["The Turn Back Turn", "Feck This", "Players Nightmare", "Bottlers Bend", "Amen Corner"],
-        correctAnswer: 4
-    }, {
-        question: "What was the last PGA Tour event to be played in full before the coronavirus lockdown?",
-        choices: ["WGC Invitational", "The Tour Championship", "The Players", "Arnold Palmer Invitational", "Bay Hill Invitational"],
-        correctAnswer: 3
-    }, {
-        question: "Royal St George’s Golf Club is based in which English town that shares its name with a popular lunchtime food?",
-        choices: ["Sandwich", "Crumpets", "Salad", "Soup", "Bread"],
-        correctAnswer: 0
-    }, {
-        question: "Tiger Woods was born in which US state?",
-        choices: ["New Mexico", "Virginia", "California", "Florida", "Texas"],
+        question: "Who was the only European player to finish unbeaten at Hazeltine 2016?",
+        choices: ["Rory McIlroy", "Sergio Garcia", "Rafa Cabrera Bello", "Justin Rose"],
         correctAnswer: 2
     }, {
-        question: "Who racked up a stunning 18 wins on Tour in 1945?",
-        choices: ["Byron Nelson", "Ben Hogan", "Arnold Palmer", "Gary Player", "Jack Nicklaus"],
+        question: "Who holed the putt that retained the Ryder Cup for Europe at Medinah in 2012?",
+        choices: ["Martin Kaymer", "Sergio Garcia", "Lee Westwood", "Justin Rose"],
         correctAnswer: 0
     }, {
-        question: "Who won the Masters in 2021?",
-        choices: ["Dustin Jonhson", "Brook Keopka", "Bryson DeChambeau", "Hideki Matsuyama", "Colin Morikawa"],
+        question: "Colin Montgomerie had an unbeaten record in how many singles matches?",
+        choices: [5, 6, 7, 8],
         correctAnswer: 3
     }, {
-        question: "In the 2008 US Open playoff, who did Tiger Woods beat?",
-        choices: ["Chris DiMarco", "Rocco Mediate", "Phil Mickelson", "Adam Scott", "Ernie Else"],
+        question: "Who captained the United States to a dramatic victory in 1999?",
+        choices: ["Lanny Wadkins", "Paul Azinger", "Ben Crenshaw", "Curtis Strange"],
+        correctAnswer: 2
+    }, {
+        question: "Which golfer has won the most matches in the Ryder Cup?",
+        choices: ["Nick Faldo", "Billy Casper", "Seve Ballesteros", "Ben Watson"],
+        correctAnswer: 0
+    }, {
+        question: "Who was the last playing US captain?",
+        choices: ["Jack Burke Jr", "Ben Hogan", "Arnold Palmer", "Sam Snead"],
+        correctAnswer: 2
+    }, {
+        question: "Who defeated Tiger Woods in the singles in 1997?",
+        choices: ["Darren Clarke", "Costantino Rocca", "Thomas Bjorn", "Lee Westwood"],
         correctAnswer: 1
     }, {
-        question: "Rory McIlroy imploded on Sunday after holding a four-stoke lead overnight in 2011. Who ended up winning?",
-        choices: ["Adam Scott", "Charl Schwartzel", "Bubba Watson", "Angel Cabrera", "Danny Willett"],
-        correctAnswer: 4
+        question: "In what year did Europe first win the Ryder Cup on American soil?",
+        choices: [1890, 2004, 1987, 1995],
+        correctAnswer: 2
+    }, {
+        question: "When did continental European golfers first become eligible to play in the Ryder Cup?",
+        choices: [1977, 1979, 1987, 1981],
+        correctAnswer: 1
+    }, {
+        question: "Who holds the record for the most Ryder Cup appearances on either side?",
+        choices: ["Tiger Woods", "Phil Mickelson", "Bernhard Langer", "Walter Hagen"],
+        correctAnswer: 1
+    }, {
+        question: "Which player made his debut as a 19-year-old, making him the youngest player in Ryder Cup history? ",
+        choices: ["Jordan Speith", "Ricky Fowler", "Sergio Garcia", "Nick Faldo"],
+        correctAnswer: 2
     }];
 ​
 
