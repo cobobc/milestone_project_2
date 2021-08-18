@@ -80,12 +80,14 @@
         choices: ["Adam Scott", "Charl Schwartzel", "Bubba Watson", "Angel Cabrera", "Danny Willett"],
         correctAnswer: 4
     }];
-
+​
     let questionCounter = 0; //Tracks question number
     let selections = []; //Array containing user choices
     const quiz = $('#quiz'); //Quiz div object
+​
     // Display initial question
     displayNext();
+​
     // Click handler for the 'next' button
     $('#next').on('click', function (e) {
         e.preventDefault();
@@ -222,4 +224,4 @@
             questions.length + ' correct! You should try your skills out of the golf course! ');
         return score;
     }
-})();
+});
