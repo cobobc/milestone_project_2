@@ -190,7 +190,7 @@
         });
     }
 ​
-    // Computes score and returns a paragraph element to be displayed
+    // Calculates the score and returns a paragraph element to be displayed
     function displayScore() {
         let score = $('<p>',{id: 'question'});
 ​
@@ -201,8 +201,8 @@
             }
         }
 ​
-        score.append('You got ' + numCorrect + ' questions out of ' +
-            questions.length + ' right!!!');
+        score.append('Congratulations, you got ' + numCorrect + ' questions out of ' +
+            questions.length + ' correct! See you at the Ryder Cup! ');
         return score;
     }
 })();
