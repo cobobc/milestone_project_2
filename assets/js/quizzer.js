@@ -91,11 +91,13 @@
     // Click handler for the 'next' button
     $('#next').on('click', function (e) {
         e.preventDefault();
+
         // Suspend click listener during fade animation
         if(quiz.is(':animated')) {
             return false;
         }
         choose();
+
         // If no user selection, progress is stopped
         if (isNaN(selections[questionCounter])) {
             alert('In golf you need to put the ball in the hole to progress. Please select an answer to proceed!');
@@ -108,6 +110,7 @@
     // Click handler for the 'prev' button
     $('#prev').on('click', function (e) {
         e.preventDefault();
+
         if(quiz.is(':animated')) {
             return false;
         }
@@ -119,6 +122,7 @@
     // Click handler for the 'Start Over' button
     $('#start').on('click', function (e) {
         e.preventDefault();
+
         if(quiz.is(':animated')) {
             return false;
         }
@@ -142,12 +146,16 @@
         let qElement = $('<div>', {
             id: 'question'
         });
+
         let header = $('<h2>Question ' + (index + 1) + ':</h2>');
         qElement.append(header);
+
         let question = $('<p>').append(questions[index].question);
         qElement.append(question);
+
         let radioButtons = createRadios(index);
         qElement.append(radioButtons);
+
         return qElement;
     }
 
@@ -175,6 +183,7 @@
     function displayNext() {
         quiz.fadeOut(function() {
             $('#question').remove();
+
             if(questionCounter < questions.length){
                 let nextQuestion = createQuestionElement(questionCounter);
                 quiz.append(nextQuestion).fadeIn();
@@ -186,6 +195,7 @@
                 if(questionCounter === 1){
                     $('#prev').show();
                 } else if(questionCounter === 0){
+
                     $('#prev').hide();
                     $('#next').show();
                 }
@@ -198,16 +208,18 @@
             }
         });
     }
-    
+
     // Calculates the score and returns a paragraph element to be displayed
     function displayScore() {
         let score = $('<p>',{id: 'question'});
+
         let numCorrect = 0;
         for (let i = 0; i < selections.length; i++) {
             if (selections[i] === questions[i].correctAnswer) {
                 numCorrect++;
             }
         }
+
         score.append('Congratulations, you got ' + numCorrect + ' questions out of ' +
             questions.length + ' correct! You should try your skills out of the golf course! ');
         return score;
