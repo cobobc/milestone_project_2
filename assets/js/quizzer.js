@@ -84,10 +84,8 @@
     let questionCounter = 0; //Tracks question number
     let selections = []; //Array containing user choices
     const quiz = $('#quiz'); //Quiz div object
-​
     // Display initial question
     displayNext();
-​
     // Click handler for the 'next' button
     $('#next').on('click', function (e) {
         e.preventDefault();
