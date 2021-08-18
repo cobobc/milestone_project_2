@@ -25,10 +25,9 @@ Ciaran O'Brien has been requested to create a interactive golf quiz website. The
 
 #### Returning User Goals
 
-*   As a Returning user, I want to continue to challenge my golfing knowledge.
+*   As a Returning user, I want to continue to challenge my golfing knowledge with updated quiz questions.
 *   As a Returning user, I want to be challanged with new quiz questions.
 *   As a Returning user, I want to submit my score so I recieve a personal email with my score.
-*   As a Returning user, I want to book a recording session via the contact form.
 
 #### Frequent User Goals
 
@@ -63,7 +62,7 @@ There were no limitations because JavaScript was used.
 
 ## Features 
 
-The features throughout the site are used mininal text and larger text for clear navigation from quiz to quiz.
+The features throughout the site are used mininal text and larger text for clear navigation from quiz to quiz. Use of Bootstrap Jumbotrons helped achieve this idea.
 
 ### Existing Features
 
@@ -71,61 +70,49 @@ The features throughout the site are used mininal text and larger text for clear
 
     *   Featured identically on every page that contains links to the Home page, the 2 quizzes, and the Contact pages. The title in the nav bar provides the user with a link
         back to the home page. 
-    *   
+    *   The navigation options contains a dropdown feature that neatly houses links to the two quiz pages. This dropdown also extends to the mobile device with the Bootstrap burger icon.
     *   The navigation options becomes contained in a responsive Bootstrap burger icon for tablet and mobile devices that provides the page option in a dropdown form. 
 
 *   Footer
 
-    *   Featured identically on every page and contains external links to FOBs main social platforms. Each external link has the attribute of target="_blank" which
+    *   Featured identically on every page and contains the Tee Time Trivia heading, followed by a <hr> element to break the footer information up and provide a bit of         breathing space to the user.
+    *   Underneath the <hr> contains site links to the pages on the quiz site. This was implemented so that the user does not have to scroll back up to the top of the page to continue navigation throughout the website. 
+    *   Another <hr> element to break the footer information up and provide a bit of breathing space to the user.
+    *   Font awesome icons are use to provide external links to Tee Time Trivia's social platforms. Each external link has the attribute of target="_blank" which
         opens the link in a new tab, keeping the user on the site and allowing for seemless UX.
-    *   The icons used are taken from font awesome.
 
 *   Home page
 
-    *   Provides a striking image of FOB, the logo and an immediate button to entice the user to visit the external store to buy FOBs beats. The image provides a professional look.
-    *   Contains an About paragraph to introduce FOB.
+    *   Provides a striking golfing image with a Jumbotron on top that provides quick information about what the website is about and buttons to give the user the option to starting quizzing immediately.
+    *   The following section provides headings and short paragraphs to describe the two quizzes and 'Take Quiz' buttons (with link) is located below the each paragraph to direct the user to the subsequent quiz.
     *   Provides short paragraphs to describe the Music and Credits page with Discover More buttons to entice the user click into those pages.
-    *   The FOR SALE sign will be in Bootstap jumbtron form to draw in the user. This feature will disapear for mobile via bootstraps d-none d-sm-inline attribute and the SHOP NOW 
-        button alone will be enough to entice the user.
+    *   Beside the Quiz special heading is a NEW badge to inform the user that it is a new feature/quiz. This badge will disappear for mobile via bootstraps d-none d-sm-inline attribute because the badge uses too much mobile real estate and it hinders the structure of the page.
 
-*   Music page
+*   Quiz and Quiz Special pages
 
-    *   The idea of this page is to provde beat (audio) samples by FOB, a shop portal button (similar to the home page) that brings the user to the site where they
-        see all of FOBs beats and buy the music.
-    *   The layout of this page flows top to bottom - the user start at the top and can play the sample audio beats provided. As the user scrolls to the bottom of the samples
-        they immediately have an option to go and buy the beats. The bottom of the page then provides a tutorial video about FOB makes his beats.
-        This embeded youtube video gives a good insight into the man and the process - making for well rounded UX.
-    *   The background colour gradient from the purple to the pink then back to the purple at the bottom accompanies the top to bottom feel of the page.
-    *   The audio sample section will use Bootstaps row grid system. Desktop and tablet will appear as two rows - image row and audio row. For mobile both will be centered and
-        the audio controls will position below their respective image.
+    *   This page acts as a 'home page' to the relevant quiz the user has chosen.
+    *   Large background images that contain large golfing crowds are used to create a feeling of pressure, anticipation and excitement for the challenge ahead (the quiz they are about to take).
+    *   The jumbotron underneath the background images contains large and quick information about the quiz and a large button with a link into the actual quiz. The idea of this is to be as clear and simple for the user as possible.
+    *   The difference between the two pages is the background image and the colour codes.
 
-*   Credits page
+*   Quiz question pages
 
-    *   This page will provide the user with FOBs credits/discograpy i.e. all the artist he has worked with. This information is very important to any music producer
-        because the user can see what FOB has produced and could potentially produce with a potentially interested user.
-    *   The first four artists are FOBs biggest and most successful to date. The artists pictures and tracks FOB has produced or mastered for them will be provided.
-        The user then has the option to check out more of the artist via the their social platform external links which are displayed as icons (via font awesome).
-    *   The main artist section will use Bootstaps row grid system. Desktop and tablet will appear as two rows - image row and tracks produced by FOB row. For mobile both will
-        be centered and the tracks produced divs will position below their respective image.
-    *   The page will provide a collapsable list - provided by Bootstrap - for the user to open and view FOBs entire credit list. The each artist on the list will be an external link a relevant social 
-        plaform of their own.
-
-*   Gallery
-
-    *   Provides the user with supporting photograph images of FOB and his style.
-    *   The photos are professionally taken and provide professional look.
-    *   Bootstraps grid system is used here - For desktop the photo display in three rows. For tablet the photos display in two rows.
-        The photos are displayed in one row for mobile.
+    *   This page provides the user with the quiz questions, selection of answers to choose from, and the option to go to the next question, previous question or start the quiz again.
+    *   The quiz questions, answers and user interactivity are housed in the .js files and are link the relevant .html files to provide the user with simple interactive pages.
+    *   The page design is simple with the quiz being the main and only focus of the page (apart from the navbar and footer). This design is calculated - research into other quiz websites on the internet found the actual quiz pages to have images, animations and other text which distract the user from challenge of the quiz. We want the user to have little distraction so they can focus on the questions.
+    *   The user must select an answer to be allowed onto the next question - the user is stopped and an alert feature is provided in case the user tries to proceed to the next question without selecting an answer. The alert instructs the user to select answer.
+    *   After the user has answered their last question, the page will provide them with a their total score in the quiz.
+    
 
 *   Contact
 
-    *   Provide the user with a contact form to contact FOB to book recording session or just general queries.
+    *   Email JS functionality via gmail is embedded in the contact form so when the user can inputs their name, email address, quiz score and click 'Submit score' button they will recieve a personal email with their score, congratulations message and a humourous GiF.
+    *   A jumbotron with large text with an offer of a personal message from a famous golfer is used at the top of the page to encourage the user to use the the functionality and submit their score. The personal message from a famous golfer comes in the form of a GiF embedded in the email the user receives.
 
 
 ### Features Left to Implement
 
-*   Final decision on colour code to be made. The pink will remain but perhaps a deeper navy might work best.
-*   Try to incorporate the FOB logo into the navigation bar for each page.
+*   Override bootstrap styling for the navbar and make the text centered and the burger icon visible in mobile device.
 
 
 ## Technologies Used
@@ -134,10 +121,9 @@ The features throughout the site are used mininal text and larger text for clear
 
 *   CSS - Used to style the website.
 
-*   [Bootstrap](https://getbootstrap.com/) - used throughout the site for layout and styling. Imported JavaScript/Query for each page to support the responsive navigation bar burger icon for
-    tablet and mobile.
+*   [Bootstrap](https://getbootstrap.com/) - used throughout the site for layout and styling. Imported JavaScript/Query for each page to support the responsive navigation bar burger icon for tablet and mobile.
 
-*   [Google Fonts](https://fonts.google.com/) - provided the *Quicksand* font used throughout the website.
+*   [Google Fonts](https://fonts.google.com/) - provided the *Enriqueta* font used throughout the website.
 
 *   [Font Awesome](https://fontawesome.com/) - provided the scocial media icons used in the Footer.
 
@@ -171,7 +157,7 @@ The features throughout the site are used mininal text and larger text for clear
 
 ### Test Results
 
-#### Validation Results
+<!--#### Validation Results
 
 The first HTML and CSS validations produced 4 errors in total:
 
@@ -192,30 +178,10 @@ The first HTML and CSS validations produced 4 errors in total:
     **Resolution** - all text based size values were removed and replaced with their respective rem equivalent.
 
 
-The second HTML and CSS validations produced 0 errors.
+The second HTML and CSS validations produced 0 errors. -->
 
 
 #### User Goal Results
-
-*   As a First Time user, I want to view clear and concise content on mobile and tablet.
-*   As a First Time user, I want to learn and understand what the site offers.
-*   As a First Time user, I want to understand the difference between the two quizzes.
-*   As a First Time user, I want to seemlessly navigate through the 6 pages of the site.
-*   As a First Time user, I want to easily connect with Tee Time Trivia's social platforms.
-*   As a First Time user, I want to challeng my golfing knowledge.
-
-#### Returning User Goals
-
-*   As a Returning user, I want to continue to challenge my golfing knowledge.
-*   As a Returning user, I want to be challanged with new quiz questions.
-*   As a Returning user, I want to submit my score so I recieve a personal email with my score.
-
-#### Frequent User Goals
-
-The frequent user wants the following:
-
-*   As a Frequent user, I want to use the email service to record all my results over a period of time.
-*   As a Frequent user, I want to try out the seasonal quiz specials.
 
 ##### First Time users
 
@@ -233,7 +199,7 @@ The frequent user wants the following:
 
 #### Returning Users
 
-*   As a Returning user, I want to continue to challenge my golfing knowledge - Testing was performed on both quizes to ensure a continuously seemless and challenging experience for users.
+*   As a Returning user, I want to continue to challenge my golfing knowledge with updated quiz questions - Testing was performed on both quizes to ensure a continuously seemless and challenging experience for users.
 
 *   As a Returning user, I want to be challanged with new quiz questions - Testing cannot be performed on this parameter as the site will updated weekly with new questions by employees of Tee Time Trivia.
 
@@ -246,14 +212,14 @@ The frequent user wants the following:
 *   As a Frequent user, I want to try out the seasonal quiz specials - Testing cannot be performed on this parameter as the quiz special will be updated whenever major golfing events are approaching by employees of Tee Time Trivia.
 
 
-### Lighthouse Test Results
+<!--### Lighthouse Test Results
 
 See the following test results:
 
 ![Lighthouse results](assets/images/read_me/lighthouse_test.png)
 
 These test results indicate that the site peforms well overall and points to what areas could be improved to optimise the sites performance.
-Due to the time constaints of this project it is not feasible to further act on this. In a normal working situation time would be taken to optimise performance.
+Due to the time constaints of this project it is not feasible to further act on this. In a normal working situation time would be taken to optimise performance. -->
 
 
 ## Deployment
