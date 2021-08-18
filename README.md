@@ -85,7 +85,6 @@ The features throughout the site are used mininal text and larger text for clear
 
     *   Provides a striking golfing image with a Jumbotron on top that provides quick information about what the website is about and buttons to give the user the option to starting quizzing immediately.
     *   The following section provides headings and short paragraphs to describe the two quizzes and 'Take Quiz' buttons (with link) is located below the each paragraph to direct the user to the subsequent quiz.
-    *   Provides short paragraphs to describe the Music and Credits page with Discover More buttons to entice the user click into those pages.
     *   Beside the Quiz special heading is a NEW badge to inform the user that it is a new feature/quiz. This badge will disappear for mobile via bootstraps d-none d-sm-inline attribute because the badge uses too much mobile real estate and it hinders the structure of the page.
 
 *   Quiz and Quiz Special pages
@@ -121,6 +120,10 @@ The features throughout the site are used mininal text and larger text for clear
 
 *   CSS - Used to style the website.
 
+*   JavaScript - used to provide interactive features (the quiz) for the user.
+
+*   [EmailJS](https://www.emailjs.com/) - used in conjuction with JS to allow the website to send email to the user.
+
 *   [Bootstrap](https://getbootstrap.com/) - used throughout the site for layout and styling. Imported JavaScript/Query for each page to support the responsive navigation bar burger icon for tablet and mobile.
 
 *   [Google Fonts](https://fonts.google.com/) - provided the *Enriqueta* font used throughout the website.
@@ -137,9 +140,7 @@ The features throughout the site are used mininal text and larger text for clear
 
 *   [PX converter](https://nekocalc.com/px-to-rem-converter) - to covert px values to rem values.
 
-*   [Codepen](https://codepen.io/) - used to help create the contact form on the contact page.
-
-*   [YouTube Help](https://support.google.com/youtube/answer/171780?hl=en) - used to help embeed the youtube video and start video from the time necessary for the music page.
+*   [Codepen](https://codepen.io/) - used to help create the code for both quiz.js files and to help create the contact form on the contact page.
 
 
 ## Testing
@@ -232,7 +233,7 @@ Created the project by:
 2.  Selecting the **Respositories** tab.
 3.  Selected the **New** button.
 4.  Under Repository tempate, select the Code Institute template from the dropdown menu.
-5.  Entered milestone_project_fob for the **Repository name**.
+5.  Entered milestone_project_2 for the **Repository name**.
 6.  Select **Create Repository**. 
 
 ### During the Project
@@ -245,7 +246,7 @@ The following commands were used throughout the project:
 
 ### Using Github Pages
 
-1.  Navigate to the GitHub [Repository](https://github.com/cobobc/milestone_project_fob).
+1.  Navigate to the GitHub [Repository](https://github.com/cobobc/milestone_project_2).
 1.  Select the **Settings** Tab.
 1.  Scroll Down to the Git Hub Pages Heading.
 1.  Select **Main Branch** as the source.
@@ -254,7 +255,7 @@ The following commands were used throughout the project:
 
 ### Run Locally
 
-1.  Navigate to the GitHub [Repository](https://github.com/cobobc/milestone_project_fob).
+1.  Navigate to the GitHub [Repository](https://github.com/cobobc/milestone_project_2).
 1.  Select the Code drop down menu.
 1.  Either Download the ZIP file, unpackage locally and open with IDE (This route ends here) OR Copy Git URL from the HTTPS dialogue box.
 1.  Open your developement editor of choice and open a terminal window in a directory of your choice.
@@ -280,5 +281,6 @@ The large background images used are sourced from www.theindependent.ie and perm
 ### Acknowledgements
 
 I'd like to thank my mentor Spencer Baribell for his guidance, efficiency and positivity throughout my project.
+Thank you to Matt Rudge the Senior Product Developer at Code Institute for his lessons on implementing EmailJS into a project.
 Thanks to my fellow students on Slack for helping my link the js quiz code to the html and css code so that my quiz question could appear.
 
