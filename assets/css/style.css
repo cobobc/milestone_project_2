@@ -21,6 +21,15 @@ body {
     color: #009170;
 }
 
+.navbar-toggler {
+    margin-bottom: 0.313rem;
+}
+
+.navbar-toggler-icon {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50px;
+}
 /*--------------------------------------------------------------------------------------------------------------------Navbar/Quiz Special--*/
 
 .nav-heading-special a {
@@ -175,12 +184,10 @@ body {
 }
 
 
-
-
 /*--------------------------------------------------------------------------------------------------------------------CONTACT - Main Header--*/
 
 .bk-contact-container {
-    height: 110vh;
+    height: 180vh;
     background-color: white;
 }
 
