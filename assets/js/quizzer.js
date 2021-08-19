@@ -59,26 +59,6 @@
         question: "Royal St George's Golf Club is based in which English town that shares its name with a popular lunchtime food?",
         choices: ["Sandwich", "Crumpets", "Salad", "Soup", "Bread"],
         correctAnswer: 0
-    }, {
-        question: "Tiger Woods was born in which US state?",
-        choices: ["New Mexico", "Virginia", "California", "Florida", "Texas"],
-        correctAnswer: 2
-    }, {
-        question: "Who racked up a stunning 18 wins on Tour in 1945?",
-        choices: ["Byron Nelson", "Ben Hogan", "Arnold Palmer", "Gary Player", "Jack Nicklaus"],
-        correctAnswer: 0
-    }, {
-        question: "Who won the Masters in 2021?",
-        choices: ["Dustin Jonhson", "Brook Keopka", "Bryson DeChambeau", "Hideki Matsuyama", "Colin Morikawa"],
-        correctAnswer: 3
-    }, {
-        question: "In the 2008 US Open playoff, who did Tiger Woods beat?",
-        choices: ["Chris DiMarco", "Rocco Mediate", "Phil Mickelson", "Adam Scott", "Ernie Else"],
-        correctAnswer: 1
-    }, {
-        question: "Rory McIlroy imploded on Sunday after holding a four-stoke lead overnight in 2011. Who ended up winning?",
-        choices: ["Adam Scott", "Charl Schwartzel", "Bubba Watson", "Angel Cabrera", "Danny Willett"],
-        correctAnswer: 4
     }];
 
     let questionCounter = 0; //Tracks question number
@@ -110,7 +90,6 @@
     // Click handler for the 'prev' button
     $('#prev').on('click', function (e) {
         e.preventDefault();
-
         if(quiz.is(':animated')) {
             return false;
         }
@@ -122,7 +101,6 @@
     // Click handler for the 'Start Over' button
     $('#start').on('click', function (e) {
         e.preventDefault();
-
         if(quiz.is(':animated')) {
             return false;
         }
@@ -136,6 +114,7 @@
     $('.button').on('mouseenter', function () {
         $(this).addClass('active');
     });
+
     $('.button').on('mouseleave', function () {
         $(this).removeClass('active');
     });
@@ -146,22 +125,18 @@
         let qElement = $('<div>', {
             id: 'question'
         });
-
         let header = $('<h2>Question ' + (index + 1) + ':</h2>');
         qElement.append(header);
-
         let question = $('<p>').append(questions[index].question);
         qElement.append(question);
-
         let radioButtons = createRadios(index);
         qElement.append(radioButtons);
-
         return qElement;
     }
 
     // Creates a list of the answer choices as radio inputs
     function createRadios(index) {
-        let radioList = $('<ul>');
+        let radioList = $('<ul style="list-style-type: none;">');
         let item;
         let input = '';
         for (let i = 0; i < questions[index].choices.length; i++) {
@@ -183,7 +158,6 @@
     function displayNext() {
         quiz.fadeOut(function() {
             $('#question').remove();
-
             if(questionCounter < questions.length){
                 let nextQuestion = createQuestionElement(questionCounter);
                 quiz.append(nextQuestion).fadeIn();
@@ -195,7 +169,6 @@
                 if(questionCounter === 1){
                     $('#prev').show();
                 } else if(questionCounter === 0){
-
                     $('#prev').hide();
                     $('#next').show();
                 }
@@ -208,20 +181,18 @@
             }
         });
     }
-
+    
     // Calculates the score and returns a paragraph element to be displayed
     function displayScore() {
         let score = $('<p>',{id: 'question'});
-
         let numCorrect = 0;
         for (let i = 0; i < selections.length; i++) {
             if (selections[i] === questions[i].correctAnswer) {
                 numCorrect++;
             }
         }
-
         score.append('Congratulations, you got ' + numCorrect + ' questions out of ' +
-            questions.length + ' correct! You should try your skills out of the golf course! ');
+            questions.length + ' correct! See you at the Ryder Cup! ');
         return score;
     }
-});
+})();

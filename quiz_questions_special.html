@@ -18,12 +18,12 @@
 <body>
 <!------------------------------------------------------------------------------------------------------------------------------Header/Navigation-->
 <nav class="navbar navbar-expand-lg" style="background-color: #003399;">
-    <h1 class="nav-heading text-center"><a href="index.html">TEE TIME TRIVIA  <i class="fas fa-golf-ball"></i></a></h1>
+    <h1 class="nav-heading nav-heading-special text-center"><a href="index.html">TEE TIME TRIVIA  <i class="fas fa-golf-ball"></i></a></h1>
 </nav>
 <nav class="navbar navbar-expand-lg" style="background-color: #003399;">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon toggler-special"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav nav-special">
@@ -47,21 +47,16 @@
 </nav>
 <!--------------------------------------------------------------------------------------------------------------------------Quiz-->
 <div id="container">
-    <section class="callout jumbotron jumbotron-quiz text-center">
         <div id="title">
-            <h1 class="quiz-heading">Ryder Cup Quiz</h1>
+            <h1 class="quiz-heading-special">Ryder Cup Quiz</h1>
         </div>
-            <br>
-            <br>
+    <section class="callout jumbotron jumbotron-quiz-special text-center">
         <div id="quiz"></div>
-        <div class="button btn btn-info" id="next"><a href="#">Next Question</a></div>
-        <div class="button btn btn-info" id="prev"><a href="#">Previous Question</a></div>
+        <div class="button btn btn-info" style="margin-top: .938rem;" id="prev"><a href="#">Back</a></div>
+        <div class="button btn btn-info" style="margin-top: .938rem;" id="next"><a href="#">Next</a></div>
         <br>
         <br>
-        <div class="button btn btn-info" id="start"> <a href="#">Take a mulligan - Start again</a></div>
-        <!-- <button class='' id='next'>Next</a></button>
-        <button class='' id='prev'>Prev</a></button>
-        <button class='' id='start'> Start Over</a></button>  -->
+        <div class="button btn btn-info" id="start"> <a href="#">Start again</a></div>
     </section>
 </div>
 <!--------------------------------------------------------------------------------------------------------------------------Footer-->

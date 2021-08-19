@@ -45,6 +45,12 @@ body {
     color: #003399;
 }
 
+.toggler-special {
+    border: 1px solid #FFCC00;
+    background-color: #FFCC00;
+    border-radius: 50px;
+}
+
 /*--------------------------------------------------------------------------------------------------------------------Footer--*/
 
 .container-wrapper-footer {
@@ -149,6 +155,10 @@ body {
 .container-wrapper-quizzes {
     background-color: #f8dcac;
     padding: .625rem 1.25rem;
+}
+
+.btn-info a {
+    color: white;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------Quiz Page--*/
@@ -268,65 +278,23 @@ textarea {
 .quiz-heading {
     text-align: center;
     font-size: 2.5rem;
-    margin-bottom: 3.125rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------Quiz questions special--*/
 
-.jumbotron-quiz-2 {
-    background-color: white;
+.jumbotron-quiz-special {
+    background-color: aliceblue;
+    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 1rem;
 }
 
-.quiz-heading-2 {
+.quiz-heading-special {
     text-align: center;
     font-size: 2.5rem;
-}
-​
-​
-#title {
-    text-decoration: underline;
-}
-​
-#quiz {
-    text-indent: .625rem;
-    display:none;
-    color: black;
-}
-​
-.btn-info {
-    margin-left: 1.875rem;
-    margin-right: 1.875rem;
-    background-color: darkgreen;
-}
-
-.btn-info a {
-    color: white;
-}
-​
-​
-#container {
-    width:50%;
-    margin:auto;
-    padding: 0 1.563rem 2.5rem .625rem;
-    background-color: #1E90FF;
-    border: .25rem solid #B0E0E6;
-    border-radius: .313rem;
-    color: #FFFFFF;
-    font-weight: bold;
-    box-shadow: .313rem .313rem .313rem #888;
-}
-​
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-​
-#prev {
-    display:none;
-}
-​
-#start {
-    display:none;
-    width: 5.625rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
 }
