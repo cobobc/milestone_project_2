@@ -162,10 +162,10 @@ body {
 }
 
 .jumbotron-main {
-    background-color: #dfffdf;
+    background-color: #e2ffe2;
     margin-bottom: 1.5rem;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-left: .625rem;
+    margin-right: .625rem;
     padding: 1rem;
 }
 
@@ -190,7 +190,7 @@ body {
 }
 
 .jumbotron-host {
-    background-color: #dfffdf;
+    background-color: #e2ffe2;
     margin-bottom: 1.5rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
@@ -226,6 +226,14 @@ body {
 .bk-contact-container {
     height: 180vh;
     background-color: white;
+}
+
+.jumbotron-contact {
+    background-color: #e2ffe2;
+    margin-bottom: 1.5rem;
+    margin-left: .625rem;
+    margin-right: .625rem;
+    padding: 1rem;
 }
 
 .contact-text {
@@ -299,7 +307,7 @@ textarea {
 /*--------------------------------------------------------------------------------------------------------------------Quiz questions--*/
 
 .jumbotron-quiz {
-    background-color: #dfffdf;
+    background-color: #e2ffe2;
     margin-bottom: 1.5rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
