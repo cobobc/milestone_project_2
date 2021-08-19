@@ -158,8 +158,15 @@ body {
 /*--------------------------------------------------------------------------------------------------------------------Home - Features--*/
 
 .container-wrapper-quizzes {
-    background-color: #f8dcac;
     padding: .625rem 1.25rem;
+}
+
+.jumbotron-main {
+    background-color: #dfffdf;
+    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 1rem;
 }
 
 .btn-info a {
@@ -182,6 +189,14 @@ body {
     margin-top: -0.313rem;
 }
 
+.jumbotron-host {
+    background-color: #dfffdf;
+    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 1rem;
+}
+
 /*--------------------------------------------------------------------------------------------------------------------Quiz Special Page--*/
 
 .bk-container-special {
@@ -198,6 +213,13 @@ body {
     margin-top: -0.313rem;
 }
 
+.jumbotron-host-special {
+    background-color: aliceblue;
+    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 1rem;
+}
 
 /*--------------------------------------------------------------------------------------------------------------------CONTACT - Main Header--*/
 
@@ -277,7 +299,11 @@ textarea {
 /*--------------------------------------------------------------------------------------------------------------------Quiz questions--*/
 
 .jumbotron-quiz {
-    background-color: white;
+    background-color: #dfffdf;
+    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 1rem;
 }
 
 .quiz-heading {
