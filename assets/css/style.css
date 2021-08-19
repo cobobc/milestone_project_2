@@ -51,6 +51,11 @@ body {
     border-radius: 50px;
 }
 
+.badge-quiz {
+    background-color: #003399;
+    color: #FFCC00;
+}
+
 /*--------------------------------------------------------------------------------------------------------------------Footer--*/
 
 .container-wrapper-footer {

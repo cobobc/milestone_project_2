@@ -136,7 +136,7 @@
 
     // Creates a list of the answer choices as radio inputs
     function createRadios(index) {
-        let radioList = $('<ul style="list-style-type: none;">');
+        let radioList = $('<ul>');
         let item;
         let input = '';
         for (let i = 0; i < questions[index].choices.length; i++) {
