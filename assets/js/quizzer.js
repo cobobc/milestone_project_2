@@ -78,7 +78,7 @@
         }
         choose();
 
-        // If no user selection, progress is stopped
+        // If no user selection, progress is stopped and notification is made
         if (isNaN(selections[questionCounter])) {
             alert('In golf you need to put the ball in the hole to progress. Please select an answer to proceed!');
         } else {
@@ -119,15 +119,15 @@
         $(this).removeClass('active');
     });
 
-    // Creates and returns the div that contains the questions and 
+    // Creates and returns the div that contains the questions and
     // the answer selections
     function createQuestionElement(index) {
         let qElement = $('<div>', {
             id: 'question'
         });
-        let header = $('<h2>Question ' + (index + 1) + ':</h2>');
+        let header = $('<h2 style="margin-bottom: 1.563rem;">Question ' + (index + 1) + '</h2>');
         qElement.append(header);
-        let question = $('<p>').append(questions[index].question);
+        let question = $('<p style="margin-bottom: 1.563rem;">').append(questions[index].question);
         qElement.append(question);
         let radioButtons = createRadios(index);
         qElement.append(radioButtons);
@@ -136,12 +136,12 @@
 
     // Creates a list of the answer choices as radio inputs
     function createRadios(index) {
-        let radioList = $('<ul>');
+        let radioList = $('<ul style="list-style-type: none; padding-left: 0">');
         let item;
         let input = '';
         for (let i = 0; i < questions[index].choices.length; i++) {
-            item = $('<li>');
-            input = '<input type="radio" name="answer" value=' + i + ' />';
+            item = $('<li style="margin-bottom: .313rem;">');
+            input = '<input type="radio" name="answer" style="margin-right: .625rem" value=' + i + ' />';
             input += questions[index].choices[i];
             item.append(input);
             radioList.append(item);
@@ -181,7 +181,7 @@
             }
         });
     }
-    
+
     // Calculates the score and returns a paragraph element to be displayed
     function displayScore() {
         let score = $('<p>',{id: 'question'});
@@ -192,7 +192,7 @@
             }
         }
         score.append('Congratulations, you got ' + numCorrect + ' questions out of ' +
-            questions.length + ' correct! See you at the Ryder Cup! ');
+            questions.length + ' correct! ');
         return score;
     }
 })();
