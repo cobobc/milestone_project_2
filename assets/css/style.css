@@ -274,22 +274,26 @@ body {
 
 .jumbotron-contact {
     background-color: #e2ffe2;
+    margin-top: 1.9rem;
     margin-bottom: 1.5rem;
     margin-left: .625rem;
     margin-right: .625rem;
     padding: 1rem;
+    color: darkslategray;
 }
 
 .contact-text {
-    padding-top: 3.125rem;
-    margin-bottom: 0;
+    margin-top: .7rem;
+    margin-bottom: 1rem;
     font-weight: 500;
-    color: #009170;
+}
+
+.main-header-quiz-contact {
+    margin-top: .65rem;
 }
 
 .contact-paragraph {
-    color: #009170;
-    margin-bottom: 0;
+    margin-bottom: .7rem;
     padding-top: 1.25rem;
     padding-right: .625rem;
     padding-left: .625rem;
@@ -306,7 +310,7 @@ form {
 }
 
 .feedback-input {
-  color: #009170;
+  color: darkslategray;;
   font-weight: 500;
   font-size: 1.125rem;
   border-radius: .313rem;
