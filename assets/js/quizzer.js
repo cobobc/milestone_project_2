@@ -195,4 +195,5 @@
             questions.length + ' correct! ');
         return score;
     }
+    $('#submit_score').show();
 })();

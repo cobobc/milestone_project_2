@@ -87,7 +87,7 @@
         }
     });
 
-    // Click handler for the 'prev' button
+    // Click handler for the 'back' button
     $('#back').on('click', function (e) {
         e.preventDefault();
         if(quiz.is(':animated')) {
@@ -98,7 +98,7 @@
         displayNext();
     });
 
-    // Click handler for the 'Start Over' button
+    // Click handler for the 'Start Again' button
     $('#start').on('click', function (e) {
         e.preventDefault();
         if(quiz.is(':animated')) {
@@ -165,7 +165,7 @@
                     $('input[value='+selections[questionCounter]+']').prop('checked', true);
                 }
 
-                // Controls display of 'prev' button
+                // Controls display of 'back' button
                 if(questionCounter === 1){
                     $('#back').show();
                 } else if(questionCounter === 0){
@@ -195,4 +195,5 @@
             questions.length + ' correct! See you at the Ryder Cup! ');
         return score;
     }
+    $('#submit_score').show();
 })();
