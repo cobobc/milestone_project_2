@@ -310,7 +310,7 @@ form {
 }
 
 .feedback-input {
-  color: darkslategray;;
+  color: darkslategray;
   font-weight: 500;
   font-size: 1.125rem;
   border-radius: .313rem;
@@ -360,11 +360,12 @@ textarea {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     padding: 1rem;
+    color: darkslategray;
 }
 
 .quiz-heading {
+    color: darkslategray;
     text-align: center;
-    font-size: 2.5rem;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
 }
@@ -377,11 +378,12 @@ textarea {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     padding: 1rem;
+    color: darkslategray;
 }
 
 .quiz-heading-special {
     text-align: center;
-    font-size: 2.5rem;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
+    color: darkslategray;
 }

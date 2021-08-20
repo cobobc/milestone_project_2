@@ -88,7 +88,7 @@
     });
 
     // Click handler for the 'prev' button
-    $('#prev').on('click', function (e) {
+    $('#back').on('click', function (e) {
         e.preventDefault();
         if(quiz.is(':animated')) {
             return false;
@@ -125,7 +125,7 @@
         let qElement = $('<div>', {
             id: 'question'
         });
-        let header = $('<h2 style="margin-bottom: 1.563rem;">Question ' + (index + 1) + '</h2>');
+        let header = $('<h4 style="margin-bottom: 1.563rem;">Question ' + (index + 1) + '</h4>');
         qElement.append(header);
         let question = $('<p style="margin-bottom: 1.563rem;">').append(questions[index].question);
         qElement.append(question);
@@ -167,16 +167,16 @@
 
                 // Controls display of 'prev' button
                 if(questionCounter === 1){
-                    $('#prev').show();
+                    $('#back').show();
                 } else if(questionCounter === 0){
-                    $('#prev').hide();
+                    $('#back').hide();
                     $('#next').show();
                 }
             }else {
                 let scoreElem = displayScore();
                 quiz.append(scoreElem).fadeIn();
                 $('#next').hide();
-                $('#prev').hide();
+                $('#back').hide();
                 $('#start').show();
             }
         });
