@@ -1,5 +1,5 @@
 body {
-    font-family: 'Enriqueta', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 ​
 /*--------------------------------------------------------------------------------------------------------------------Navbar--*/
@@ -8,9 +8,13 @@ body {
     z-index: 1;
 }
 
+.nav-heading {
+    margin-top: .7rem;
+}
+
 .nav-heading a {
     color: white;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .nav-item a {
@@ -30,11 +34,12 @@ body {
     background-color: white;
     border-radius: 50px;
 }
+
 /*--------------------------------------------------------------------------------------------------------------------Navbar/Quiz Special--*/
 
 .nav-heading-special a {
     color: #FFCC00;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .nav-special a {
@@ -171,6 +176,22 @@ body {
 
 .btn-info a {
     color: white;
+}
+
+.golf-image img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: .25rem;
+    margin-top: 1.25rem;
+}
+
+.golf-info {
+    margin-top: 1.875rem;
+}
+
+.quizzes-header {
+    margin-bottom: 1rem;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------Quiz Page--*/
