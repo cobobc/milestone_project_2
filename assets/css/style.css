@@ -176,7 +176,7 @@ body {
     color: darkslategray;
 }
 
-.main-header {
+.main-header-home {
     margin-top: .65rem;
 }
 
@@ -230,6 +230,11 @@ body {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     padding: 1rem;
+    color: darkslategray;
+}
+
+.main-header-quiz {
+    margin-top: .65rem;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------Quiz Special Page--*/
@@ -254,8 +259,12 @@ body {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     padding: 1rem;
+    color: darkslategray;
 }
 
+.main-header-quiz-special {
+    margin-top: .65rem;
+}
 /*--------------------------------------------------------------------------------------------------------------------CONTACT - Main Header--*/
 
 .bk-contact-container {
