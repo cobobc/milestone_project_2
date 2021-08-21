@@ -7,6 +7,7 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS", response);
+            alert("Your score has been submitted and sent to your email!")
         },
         function(error) {
             console.log("FAILED", error);

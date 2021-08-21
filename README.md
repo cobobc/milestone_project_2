@@ -158,29 +158,9 @@ The features throughout the site are used mininal text and larger text for clear
 
 ### Test Results
 
-<!--#### Validation Results
+Validation Results
 
-The first HTML and CSS validations produced 4 errors in total:
-
-*   line 49 Error: The element button must not appear as a descendant of the a element. (index.html)
-
-    **Resolution** - moved the btn class attribute into the a element and deleted the button element.
-
-*   line 120 Error: The frameborder attribute on the iframe element is obsolete. Use CSS instead. (music.html)
-
-    **Resolution** - deleted the frameborder attribute.
-
-*   line 158 Error: Element h3 not allowed as child of element button in this context. (Suppressing further errors from this subtree.) (credits.html)
-
-    **Resolution** - removed the h3 element and readjusted the font size accordingly.
-
-*   style.css Error: xxx-large cannot be used as a font size
-
-    **Resolution** - all text based size values were removed and replaced with their respective rem equivalent.
-
-
-The second HTML and CSS validations produced 0 errors. -->
-
+The first HTML and CSS validations produced 0 errors.
 
 #### User Goal Results
 

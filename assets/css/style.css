@@ -30,9 +30,9 @@ body {
 }
 
 .navbar-toggler-icon {
-    border: 1px solid white;
+    border: .063rem solid white;
     background-color: white;
-    border-radius: 50px;
+    border-radius: 3.125rem;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------Navbar/Quiz Special--*/
@@ -51,9 +51,9 @@ body {
 }
 
 .toggler-special {
-    border: 1px solid #FFCC00;
+    border: .063rem solid #FFCC00;
     background-color: #FFCC00;
-    border-radius: 50px;
+    border-radius: 3.125rem;
 }
 
 .badge-quiz {
@@ -168,10 +168,7 @@ body {
 
 .jumbotron-main {
     background-color: #e2ffe2;
-    margin-top: 1.9rem;
-    margin-bottom: 1.5rem;
-    margin-left: .625rem;
-    margin-right: .625rem;
+    margin: 1.9rem .625rem 1.5rem;
     padding: 1rem;
     color: darkslategray;
 }
@@ -274,10 +271,7 @@ body {
 
 .jumbotron-contact {
     background-color: #e2ffe2;
-    margin-top: 1.9rem;
-    margin-bottom: 1.5rem;
-    margin-left: .625rem;
-    margin-right: .625rem;
+    margin: 1.9rem .625rem 1.5rem;
     padding: 1rem;
     color: darkslategray;
 }
