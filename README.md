@@ -2,11 +2,13 @@
 
 ## Purpose 
 
-The purpose of this site is to complete the second Milestone Project for the Code Institute's Full Stack Developer course and can can be found [here]().
+The purpose of this site is to complete the second Milestone Project for the Code Institute's Full Stack Developer course and can can be found [here](https://cobobc.github.io/milestone_project_2/).
 
 ## Tee Time Trivia Website
 
-![TTT site overview](assets/images/read_me/)
+![TTT site desktop overview](assets/images/read_me/ttt_home_desktop.png)
+
+![TTT site mobile overview](assets/images/read_me/ttt_home_mobile.png)
 
 Ciaran O'Brien has been requested to create a interactive golf quiz website. The website will challenge users on there general golfing knowledge and also - because it's a Ryder Cup year - test the users Ryder Cup knowledge.
 
@@ -40,7 +42,7 @@ The frequent user wants the following:
 
 #### Colour Scheme
 
-The main colours used are #009170 (green), #000 (white), and #f8dcac (sand). The green and sand are common colours associated with golf.
+The main colours used are #009170 (green) and #000 (white). The green is a common colour associated with golf.
 For the special quiz pages a #003399 (blue) and a #FFCC00 (yellow) are used. These colours are that of the EU flag and the European Ryder Cup team.
 
 #### Font
@@ -162,7 +164,7 @@ The features throughout the site are used mininal text and larger text for clear
 
 Validation Results
 
-The HTML and CSS validations produced 0 errors.
+The HTML, CSS and JavaScript validations produced 0 errors.
 
 #### User Goal Results
 
