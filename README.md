@@ -206,7 +206,7 @@ See the following lighthouse test results:
 
 
 ![Lighthouse desktop results](assets/images/lighthouse/lighthouse_test_desktop.png) \
-**Mobile test result**
+**Desktop test result**
 
 
 These test results indicate that the site peforms very overall. It also shows that Accessibily and Best Practices could improved to further optimise the sites performance.
