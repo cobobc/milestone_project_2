@@ -113,7 +113,7 @@ The features throughout the site are used mininal text and larger text for clear
 
 ### Features Left to Implement
 
-*   Override bootstrap styling for the navbar and make the text centered and the burger icon visible in mobile device.
+*   Configure the quiz JS code so that the 'Submit Your Score' button only appears when the user completes a quiz.
 
 
 ## Technologies Used
