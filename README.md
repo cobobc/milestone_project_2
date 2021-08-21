@@ -77,9 +77,9 @@ The features throughout the site are used mininal text and larger text for clear
 
 *   Footer
 
-    *   Featured identically on every page and contains the Tee Time Trivia heading, followed by a <hr> element to break the footer information up and provide a bit of         breathing space to the user.
-    *   Underneath the <hr> contains site links to the pages on the quiz site. This was implemented so that the user does not have to scroll back up to the top of the page to continue navigation throughout the website. 
-    *   Another <hr> element to break the footer information up and provide a bit of breathing space to the user.
+    *   Featured identically on every page and contains the Tee Time Trivia heading, followed by a hr element to break the footer information up and provide a bit of         breathing space to the user.
+    *   Underneath the hr contains site links to the pages on the quiz site. This was implemented so that the user does not have to scroll back up to the top of the page to continue navigation throughout the website. 
+    *   Another hr element to break the footer information up and provide a bit of breathing space to the user.
     *   Font awesome icons are use to provide external links to Tee Time Trivia's social platforms. Each external link has the attribute of target="_blank" which
         opens the link in a new tab, keeping the user on the site and allowing for seemless UX.
 
@@ -201,8 +201,13 @@ Lighthouse Test Results
 
 See the following lighthouse test results:
 
-*   ![Lighthouse mobile results](assets/images/lighthouse/lighthouse_test_mobile.png)
-*   ![Lighthouse desktop results](assets/images/lighthouse/lighthouse_test_desktop.png)
+![Lighthouse mobile results](assets/images/lighthouse/lighthouse_test_mobile.png)
+**Mobile test result**
+
+
+![Lighthouse desktop results](assets/images/lighthouse/lighthouse_test_desktop.png)
+**Mobile test result**
+
 
 These test results indicate that the site peforms very overall. It also shows that Accessibily and Best Practices could improved to further optimise the sites performance.
 Due to the time constaints of this project it is not feasible to act further on this. In a normal working situation time would be taken to optimise performance.
@@ -265,7 +270,7 @@ The large background images used are sourced from www.theindependent.ie and perm
 
 ### Acknowledgements
 
-I'd like to thank my mentor Spencer Baribell for his guidance, efficiency and positivity throughout my project.
+I'd like to thank my mentor Spencer Barriball for his guidance, efficiency and positivity throughout my project.
 Thank you to Matt Rudge the Senior Product Developer at Code Institute for his lessons on implementing EmailJS into a project.
 Thanks to my fellow students on Slack for helping my link the js quiz code to the html and css code so that my quiz question could appear.
 
