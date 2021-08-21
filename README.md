@@ -23,7 +23,7 @@ Ciaran O'Brien has been requested to create a interactive golf quiz website. The
 *   As a First Time user, I want to understand the difference between the two quizzes.
 *   As a First Time user, I want to seemlessly navigate through the 6 pages of the site.
 *   As a First Time user, I want to easily connect with Tee Time Trivia's social platforms.
-*   As a First Time user, I want to challeng my golfing knowledge.
+*   As a First Time user, I want to challenge my golfing knowledge.
 
 #### Returning User Goals
 
@@ -47,7 +47,7 @@ For the special quiz pages a #003399 (blue) and a #FFCC00 (yellow) are used. The
 
 #### Font
 
-The **Enriqueta** font is used through the whole site.
+The **Rubik** font is used through the whole site.
 
 #### Imagery
 
@@ -60,11 +60,11 @@ For complete wireframes see this [PDF](assets/images/read_me/Wireframes_m2.pdf).
 
 ### Limitations
 
-There were no limitations because JavaScript was used.
+There were no limitations.
 
 ## Features 
 
-The features throughout the site are used mininal text and larger text for clear navigation from quiz to quiz. Use of Bootstrap Jumbotrons helped achieve this idea.
+The features throughout the site are mininal text and larger text for clear navigation from quiz to quiz. Use of Bootstrap Jumbotrons helped achieve this idea.
 
 ### Existing Features
 
@@ -85,8 +85,8 @@ The features throughout the site are used mininal text and larger text for clear
 
 *   Home page
 
-    *   Provides a striking golfing image with a Jumbotron on top that provides quick information about what the website is about and buttons to give the user the option to starting quizzing immediately.
-    *   The following section provides headings and short paragraphs to describe the two quizzes and 'Take Quiz' buttons (with link) is located below the each paragraph to direct the user to the subsequent quiz.
+    *   Provides a Jumbotron  that provides quick information about what the website is about and buttons to give the user the option to start quizzing immediately.
+    *   The following section provides headings and short paragraphs to describe the two quizzes and 'Start Quiz' buttons (with links) is located below the each paragraph to direct the user to the subsequent quiz.
     *   Beside the Quiz special heading is a NEW badge to inform the user that it is a new feature/quiz. This badge will disappear for mobile via bootstraps d-none d-sm-inline attribute because the badge uses too much mobile real estate and it hinders the structure of the page.
 
 *   Quiz and Quiz Special pages
@@ -100,7 +100,7 @@ The features throughout the site are used mininal text and larger text for clear
 
     *   This page provides the user with the quiz questions, selection of answers to choose from, and the option to go to the next question, previous question or start the quiz again.
     *   The quiz questions, answers and user interactivity are housed in the .js files and are link the relevant .html files to provide the user with simple interactive pages.
-    *   The page design is simple with the quiz being the main and only focus of the page (apart from the navbar and footer). This design is calculated - research into other quiz websites on the internet found the actual quiz pages to have images, animations and other text which distract the user from challenge of the quiz. We want the user to have little distraction so they can focus on the questions.
+    *   The page design is simple with the quiz being the main and only focus of the page (apart from the navbar and footer). This design is calculated - research into other quiz websites on the internet found the actual quiz pages to have images, animations and other text which distract the user from the challenge of the quiz. We want the user to have little distraction so they can focus on the questions.
     *   The user must select an answer to be allowed onto the next question - the user is stopped and an alert feature is provided in case the user tries to proceed to the next question without selecting an answer. The alert instructs the user to select answer.
     *   After the user has answered their last question, the page will provide them with a their total score in the quiz.
     
@@ -162,7 +162,7 @@ The features throughout the site are used mininal text and larger text for clear
 
 ### Test Results
 
-Validation Results
+#### Validation Results
 
 The HTML, CSS and JavaScript validations produced 0 errors.
 
@@ -170,7 +170,7 @@ The HTML, CSS and JavaScript validations produced 0 errors.
 
 ##### First Time users
 
-*   As a First Time user, I want to view clear and concise content on mobile - Testing was performed to ensure there was not clusters of over information, well spaced and aesthically pleasing on tablet and mobile.
+*   As a First Time user, I want to view clear and concise content on mobile - Testing was performed to ensure there was no clusters of over information, well spaced and aesthically pleasing on tablet and mobile.
 
 *   As a First Time user, I want to learn and understand what the site offers - Testing was performed to verify enough information is uploaded to tell the user about what the site offers.
 
@@ -182,30 +182,30 @@ The HTML, CSS and JavaScript validations produced 0 errors.
 
 *   As a First Time user, I want to challenge my golfing knowledge - Testing was performed on both quizes to ensure a seemless and challenging experience for users.
 
-#### Returning Users
+##### Returning Users
 
 *   As a Returning user, I want to continue to challenge my golfing knowledge with updated quiz questions - Testing was performed on both quizes to ensure a continuously seemless and challenging experience for users.
 
-*   As a Returning user, I want to be challanged with new quiz questions - Testing cannot be performed on this parameter as the site will updated weekly with new questions by employees of Tee Time Trivia.
+*   As a Returning user, I want to be challanged with new quiz questions - Testing cannot be performed on this parameter as the site will be updated weekly with new questions by employees of Tee Time Trivia.
 
 *   As a Returning user, I want to submit my score so I recieve a personal email with my score - Testing was performed on the Email JS function to ensure the user receives a response email with their score after they have submitted their score via the website.
 
-#### Frequent Users
+##### Frequent Users
 
 *   As a Frequent user, I want to use the email service to record all my results over a period of time - Testing was performed on the Email JS function to ensure the user receives a response email with their score after they have submitted their score via the website and that the email saves in the users inbox.
 
 *   As a Frequent user, I want to try out the seasonal quiz specials - Testing cannot be performed on this parameter as the quiz special will be updated whenever major golfing events are approaching by employees of Tee Time Trivia.
 
 
-Lighthouse Test Results
+#### Lighthouse Test Results
 
 See the following lighthouse test results:
 
-![Lighthouse mobile results](assets/images/lighthouse/lighthouse_test_mobile.png)
+![Lighthouse mobile results](assets/images/lighthouse/lighthouse_test_mobile.png) \
 **Mobile test result**
 
 
-![Lighthouse desktop results](assets/images/lighthouse/lighthouse_test_desktop.png)
+![Lighthouse desktop results](assets/images/lighthouse/lighthouse_test_desktop.png) \
 **Mobile test result**
 
 
