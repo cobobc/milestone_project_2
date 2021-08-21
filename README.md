@@ -153,6 +153,8 @@ The features throughout the site are used mininal text and larger text for clear
 
 1.  Run all pages through the [W3C CSS Validator](http://www.css-validator.org/).
 
+1.  Run all .js files through the [JShint](https://jshint.com/) validator.
+
 1.  Run a lighthouse test for performance.
 
 
@@ -160,7 +162,7 @@ The features throughout the site are used mininal text and larger text for clear
 
 Validation Results
 
-The first HTML and CSS validations produced 0 errors.
+The HTML and CSS validations produced 0 errors.
 
 #### User Goal Results
 
@@ -193,14 +195,15 @@ The first HTML and CSS validations produced 0 errors.
 *   As a Frequent user, I want to try out the seasonal quiz specials - Testing cannot be performed on this parameter as the quiz special will be updated whenever major golfing events are approaching by employees of Tee Time Trivia.
 
 
-<!--### Lighthouse Test Results
+Lighthouse Test Results
 
-See the following test results:
+See the following lighthouse test results:
 
-![Lighthouse results](assets/images/read_me/lighthouse_test.png)
+*   ![Lighthouse mobile results](assets/images/lighthouse/lighthouse_test_mobile.png)
+*   ![Lighthouse desktop results](assets/images/lighthouse/lighthouse_test_desktop.png)
 
-These test results indicate that the site peforms well overall and points to what areas could be improved to optimise the sites performance.
-Due to the time constaints of this project it is not feasible to further act on this. In a normal working situation time would be taken to optimise performance. -->
+These test results indicate that the site peforms very overall. It also shows that Accessibily and Best Practices could improved to further optimise the sites performance.
+Due to the time constaints of this project it is not feasible to act further on this. In a normal working situation time would be taken to optimise performance.
 
 
 ## Deployment
